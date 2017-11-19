@@ -1,0 +1,17 @@
+.Navbar {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+}
+
+.menu-button {
+    float: right;
+    margin: 30px 40px 0 0;
+}
+
+.menu-button div {
+    width: 35px;
+    height: 1px;
+    background-color: #999999;
+    margin: 8px 0;
+}

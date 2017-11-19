@@ -1,0 +1,41 @@
+.Home_Main {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),url("../../Assets/fog.jpg");
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+}
+
+.Logo_Container {
+    outline: 1px solid #999999;
+    text-align: center;
+    width:350px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-100px 0 0 -175px;
+}
+
+.Name_Logo {
+    padding-top: 12px;
+}
+
+hr {
+    width: 120px;
+    background-color: #999999;
+    border: none;
+    height: 1px;
+}
+
+
+.Job_Title {
+    font-family: 'Cardo', serif;
+    font-weight: 100;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #cecece;
+    padding-top: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
