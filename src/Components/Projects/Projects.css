@@ -1,0 +1,56 @@
+.Projects_Main {
+    height: 100vh;
+}
+
+.Hidden_Camp_Container {
+    display: flex;
+    height: 75vh;
+}
+
+.Hidden_Camp_Img {
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+}
+
+.Hidden_Camp_Img img {
+    max-width:100%;
+}
+
+.Hidden_Camp_About {
+    width: 50vw;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+}
+
+.Hidden_Camp_About h1 {
+    font-family: 'Cardo', serif;
+    font-size: 2.5em;
+    color: #2a2a2a;
+    max-width: 600px;
+    text-transform: uppercase;
+}
+
+.Hidden_Camp_Explanation {
+    margin: auto 0;
+    font-size: 1em;
+    font-weight: 300;
+    color: #2A2A2A;
+    max-width: 600px;
+}
+
+.Hidden_Camp_About p {
+    margin: 30px 0 30px 0;
+    line-height: 1.5;
+}
+
+.strong {
+    font-weight: 400;
+}
+
+.Portfolio_HR {
+    border: 0;
+    height: 0;
+    width: 1300px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}

@@ -1,17 +1,40 @@
 .Navbar {
-    background-color: transparent;
-    position: fixed;
-    width: 100%;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .menu-button {
-    float: right;
-    margin: 30px 40px 0 0;
+  float: right;
+  margin: 30px 40px 0 0;
 }
 
-.menu-button div {
-    width: 35px;
-    height: 1px;
-    background-color: #999999;
-    margin: 8px 0;
+.Hamburger {
+  width: 35px;
+  height: 1px;
+  background-color: #999999;
+  margin: 8px 0;
+}
+
+.drawer {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  padding-top: 20px;
+}
+
+.menu-item {
+  color: #515151 !important;
+  font-family: "Lato", sans-serif !important;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.menu-item :hover {
+  text-decoration: none;
+  color: rgb(222, 222, 222);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
