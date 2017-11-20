@@ -1,29 +1,38 @@
 .Projects_Main {
-    height: 100vh;
+    height: 100%;
+    background: #F7F7F7;
 }
 
-.Hidden_Camp_Container {
+.Portfolio_Container {
     display: flex;
     height: 75vh;
 }
 
-.Hidden_Camp_Img {
+.Portfolio_Img {
     width: 50vw;
     text-align: center;
     margin: auto;
+    perspective: 1000px;
 }
 
-.Hidden_Camp_Img img {
-    max-width:100%;
+.Portfolio_Img img {
+    max-width: 500px;
+    transform: rotate(0);
 }
 
-.Hidden_Camp_About {
+.Portfolio_Img :hover {
+    transform: rotateY(30deg);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+}
+
+.Portfolio_About {
     width: 50vw;
     font-family: 'Lato', sans-serif;
     margin: auto;
 }
 
-.Hidden_Camp_About h1 {
+.Portfolio_About h1 {
     font-family: 'Cardo', serif;
     font-size: 2.5em;
     color: #2a2a2a;
@@ -31,7 +40,7 @@
     text-transform: uppercase;
 }
 
-.Hidden_Camp_Explanation {
+.Portfolio_Explanation {
     margin: auto 0;
     font-size: 1em;
     font-weight: 300;
@@ -39,7 +48,7 @@
     max-width: 600px;
 }
 
-.Hidden_Camp_About p {
+.Portfolio_About p {
     margin: 30px 0 30px 0;
     line-height: 1.5;
 }
@@ -53,4 +62,24 @@
     height: 0;
     width: 1300px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.Portfolio_Buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin-top: 38px;
+}
+
+.Portfolio_Button {
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 10px;
+    background: #999999;
+    color: #F7F7F7;
+}
+
+.Portfolio_Buttons :hover{
+    box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
 }
