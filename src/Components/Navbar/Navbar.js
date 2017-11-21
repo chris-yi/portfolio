@@ -51,9 +51,11 @@ class Navbar extends Component {
               Skills
             </MenuItem>
             </a>
+            <a href="#contact">
             <MenuItem onClick={this.handleClose} className="menu-item">
               Contact
             </MenuItem>
+            </a>
           </Drawer>
         </div>
       </div>

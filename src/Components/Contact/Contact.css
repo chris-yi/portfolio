@@ -1,0 +1,70 @@
+.Contact_Main {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.Contact_Container {
+    color: #F7F7F7;
+    padding-top: 10%;
+    background: #3f4041;
+    height: 50vh;
+}
+
+.Contact_Container h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 3%;
+}
+
+.Contact_Container p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.Contact_Button {
+    margin: 4% auto 0 auto;
+    padding: 12px;
+    width: 100px;
+    border: 1px solid #F7F7F7;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Footer {
+    height: 30vh;
+    background: #1B1E24;
+    color: #a8aeb0;
+}
+
+.Footer_Logo {
+    width: 130px;
+    margin-top: 50px;
+}
+
+.Footer p {
+    font-size: .7em;
+    margin-top: 21px;
+    font-weight: 300;
+}
+
+.Contact_Badges {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Contact_Badge {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #3f4041;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}

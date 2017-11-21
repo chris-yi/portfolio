@@ -19,6 +19,7 @@ export default function Skills() {
         </div>
         <div className="Skills_Container">
             <div className="Front">
+                <i class="fa fa-desktop fa-2x" aria-hidden="true"></i>
                 <h1>Front-End</h1>
                 <div className="Technologies">
                 <p>HTML5</p>
@@ -29,6 +30,7 @@ export default function Skills() {
                 </div>
             </div>
             <div className="UI_UX">
+                <i class="fa fa-magic fa-2x" aria-hidden="true"></i>
                 <h1>UI/UX</h1>
                 <div className="Technologies">
                 <p>CSS3</p>
@@ -37,6 +39,7 @@ export default function Skills() {
                 </div>
             </div>
             <div className="Back">
+                <i class="fa fa-code fa-2x" aria-hidden="true"></i>
                 <h1>Back-End</h1>
                 <div className="Technologies">
                 <p>Node.js</p>
@@ -47,14 +50,14 @@ export default function Skills() {
         </div>
         <div className="Tech_Icon_Container">
             <div className="Tech_Icons">
-                <img src={CSS} alt="csslogo" className="Tech_Logo"/>
-                <img src={HTML} alt="htmllogo" className="Tech_Logo"/>
-                <img src={JS} alt="jslogo" className="Tech_Logo"/>
-                <img src={ReactLogo} alt="reactlogo" className="Tech_Logo"/>
-                <img src={AngularLogo} alt="angularlogo" className="Tech_Logo"/>
-                <img src={NodeLogo} alt="nodelogo" className="Tech_Logo"/>
-                <img src={PostgresLogo} alt="postgreslogo" className="Tech_Logo"/>
-                <img src={GitLogo} alt="gitlogo" className="Tech_Logo"/>
+                <div className="Tech_Badge"><img src={CSS} alt="csslogo" className="Tech_Logo"/></div>
+                <div className="Tech_Badge"><img src={HTML} alt="htmllogo" className="Tech_Logo"/></div>
+                <div className="Tech_Badge"><img src={JS} alt="jslogo" className="Tech_Logo"/></div>
+                <div className="Tech_Badge"><img src={ReactLogo} alt="reactlogo" className="Tech_Logo"/></div>
+                <div className="Tech_Badge"><img src={AngularLogo} alt="angularlogo" className="Tech_Logo"/></div>
+                <div className="Tech_Badge"><img src={NodeLogo} alt="nodelogo" className="Tech_Logo"/></div>
+                <div className="Tech_Badge"><img src={PostgresLogo} alt="postgreslogo" className="Tech_Logo"/></div>
+                <div className="Tech_Badge"><img src={GitLogo} alt="gitlogo" className="Tech_Logo"/></div>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 .Projects_Main {
     height: 100%;
-    background: #F7F7F7;
+    background: #ecebeb;
 }
 
 .Portfolio_Container {
@@ -29,14 +29,15 @@
 
 .Portfolio_About {
     width: 50vw;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: auto;
 }
 
 .Portfolio_About h1 {
-    font-family: 'Cardo', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 2.5em;
-    color: #2a2a2a;
+    color: #293a3f;
     max-width: 600px;
     text-transform: uppercase;
 }
@@ -52,10 +53,13 @@
 .Portfolio_About p {
     margin: 30px 0 30px 0;
     line-height: 1.5;
+    font-weight: 200;
+    color: #868e96;
 }
 
 .strong {
     font-weight: 400;
+    color: #293a3f;
 }
 
 .Portfolio_HR {
