@@ -18,9 +18,6 @@ export default function Skills() {
             <hr/>
         </div>
         <div className="Skills_Container">
-
-            {/* <p>HTML5, CSS3, JavaScript(ES6), ReactJS, Redux, AngularJS, Node.js, Express, PostgreSQL, </p> */}
-
             <div className="Front">
                 <h1>Front-End</h1>
                 <div className="Technologies">
