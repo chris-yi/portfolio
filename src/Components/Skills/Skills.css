@@ -1,0 +1,55 @@
+.Skills_Main {
+    height: 75vh;
+    margin-top: 5%;
+}
+
+hr {
+    border: 0;
+    height: 0;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.Skills_Header {
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.Skills_Container {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    padding-top: 6%;
+    font-size: 1.2em;
+}
+
+.Technologies {
+    margin-top: 21px;
+}
+
+.Technologies p {
+    font-weight: 200;
+    color: #999999;
+    line-height: 1.5;
+}
+
+.Tech_Logo {
+    width: 30px;
+    height: 30px;
+}
+
+.Tech_Icon_Container {
+    margin-top: 10%;
+}
+
+.Tech_Icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 450px;
+    margin: auto;
+}

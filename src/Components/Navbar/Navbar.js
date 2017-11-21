@@ -36,12 +36,19 @@ class Navbar extends Component {
               Home
             </MenuItem>
             </a>
+            <a href="#about">
             <MenuItem onClick={this.handleClose} className="menu-item">
               About
             </MenuItem>
+            </a>
             <a href="#projects">
             <MenuItem onClick={this.handleClose} className="menu-item">
               Projects
+            </MenuItem>
+            </a>
+            <a href="#skills">
+            <MenuItem onClick={this.handleClose} className="menu-item">
+              Skills
             </MenuItem>
             </a>
             <MenuItem onClick={this.handleClose} className="menu-item">

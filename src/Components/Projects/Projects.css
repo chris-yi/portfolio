@@ -13,6 +13,7 @@
     text-align: center;
     margin: auto;
     perspective: 1000px;
+    
 }
 
 .Portfolio_Img img {
@@ -22,8 +23,8 @@
 
 .Portfolio_Img :hover {
     transform: rotateY(30deg);
-    transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
+    transition: transform .8s ease-in-out;
+    -webkit-transition: transform .8s ease-in-out;
 }
 
 .Portfolio_About {

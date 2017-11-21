@@ -15,7 +15,14 @@ export default function Projects() {
             <h1>Personal Landing Page</h1>
             <div className="Portfolio_Explanation">
               <p>
-                <strong className="strong">Description:</strong> A personal landing page app using Weather, Inspirational Quote and Unsplash Images APIs.  This app grabs the geolocation of the user and displays the current weather and time according to the users location.  User has the capability of tweeting out the random quote generated on the page as well as a custom search bar that generates results from Google.  A new background image is generated everytime the user revisits the page.
+                <strong className="strong">Description:</strong> A personal
+                landing page app using Weather, Inspirational Quote and Unsplash
+                Images APIs. This app grabs the geolocation of the user and
+                displays the current weather and time according to the users
+                location. User has the capability of tweeting out the random
+                quote generated on the page as well as a custom search bar that
+                generates results from Google. A new background image is
+                generated everytime the user revisits the page.
               </p>
               <p>
                 <strong className="strong">Technologies Used:</strong> Built
@@ -23,9 +30,15 @@ export default function Projects() {
               </p>
             </div>
             <div className="Portfolio_Buttons">
-                <a href="https://github.com/chris-yi/no-db-project" target="_blank" rel="noopener noreferrer">
-                <div className="Portfolio_Button">Github <i class="fa fa-github" aria-hidden="true"></i></div>
-                </a>
+              <a
+                href="https://github.com/chris-yi/no-db-project"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Portfolio_Button">
+                  Github <i class="fa fa-github" aria-hidden="true" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -52,21 +65,31 @@ export default function Projects() {
               </p>
               <p>
                 <strong className="strong">Technologies Used:</strong> Built
-                with HTML/CSS, JavaScript, React, Redux, NodeJS, Express, Massive, PostgreSQL, and Auth0
+                with HTML/CSS, JavaScript, React, Redux, NodeJS, Express,
+                Massive, PostgreSQL, and Auth0
               </p>
             </div>
             <div className="Portfolio_Buttons">
-            <a href="http://hiddencamp.com" target="_blank" rel="noopener noreferrer">
+              <a
+                href="http://hiddencamp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="Portfolio_Button">Website</div>
-                </a>
-                <a href="https://github.com/chris-yi/hidden-camp" target="_blank" rel="noopener noreferrer">
-                <div className="Portfolio_Button">Github <i class="fa fa-github" aria-hidden="true"></i>
-</div></a>
+              </a>
+              <a
+                href="https://github.com/chris-yi/hidden-camp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="Portfolio_Button">
+                  Github <i class="fa fa-github" aria-hidden="true" />
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <hr className="Portfolio_HR" />
     </div>
   );
 }
