@@ -10,9 +10,11 @@ export default function Contact() {
             <h1>Want to work together?</h1>
             <p>I am currently available for full-time work and would love to chat.</p>
             <p>Please shoot me an email.</p>
+            <a href="mailto:chris@chrisyi.me">
             <div className="Contact_Button">
-                <a href="mailto:chris@chrisyi.me">Contact Me</a>
+                Message Me
             </div>
+            </a>
         </div>
         <div className="Footer">
             <img src={Logo} alt="chrisyilogo" className="Footer_Logo"/>

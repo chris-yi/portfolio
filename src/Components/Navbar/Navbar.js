@@ -19,10 +19,14 @@ class Navbar extends Component {
   render() {
     return (
       <div className="Navbar">
-        <div className="menu-button" onClick={this.handleToggle}>
-          <div className="Hamburger"/>
-          <div className="Hamburger"/>
-          <div className="Hamburger"/>
+        <div className="Hamburger_Button">
+          <div className="menu-button" onClick={this.handleToggle}>
+            <div className="Hamburger" />
+            <div className="Hamburger" />
+            <div className="Hamburger" />
+          </div>
+        </div>
+        <div>
           <Drawer
             docked={false}
             width={300}
@@ -32,29 +36,29 @@ class Navbar extends Component {
             containerClassName="drawer"
           >
             <a href="#home">
-            <MenuItem onClick={this.handleClose} className="menu-item">
-              Home
-            </MenuItem>
+              <MenuItem onClick={this.handleClose} className="menu-item">
+                Home
+              </MenuItem>
             </a>
             <a href="#about">
-            <MenuItem onClick={this.handleClose} className="menu-item">
-              About
-            </MenuItem>
+              <MenuItem onClick={this.handleClose} className="menu-item">
+                About
+              </MenuItem>
             </a>
             <a href="#projects">
-            <MenuItem onClick={this.handleClose} className="menu-item">
-              Projects
-            </MenuItem>
+              <MenuItem onClick={this.handleClose} className="menu-item">
+                Projects
+              </MenuItem>
             </a>
             <a href="#skills">
-            <MenuItem onClick={this.handleClose} className="menu-item">
-              Skills
-            </MenuItem>
+              <MenuItem onClick={this.handleClose} className="menu-item">
+                Skills
+              </MenuItem>
             </a>
             <a href="#contact">
-            <MenuItem onClick={this.handleClose} className="menu-item">
-              Contact
-            </MenuItem>
+              <MenuItem onClick={this.handleClose} className="menu-item">
+                Contact
+              </MenuItem>
             </a>
           </Drawer>
         </div>
