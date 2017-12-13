@@ -50,7 +50,7 @@ hr {
 .Tech_Badge {
     width: 3em;
     height: 3em;
-    border-radius: 3px;
+    border-radius: 50px;
     background-color: #DDD;
     display: inline-flex;
     align-items: center;

@@ -23,8 +23,8 @@
 
 .Portfolio_Img :hover {
     transform: rotateY(30deg);
-    transition: transform .8s ease-in-out;
-    -webkit-transition: transform .8s ease-in-out;
+    transition: transform .6s ease-in-out;
+    -webkit-transition: transform .6s ease-in-out;
 }
 
 .Portfolio_About {
