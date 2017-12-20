@@ -8,7 +8,7 @@ const app = express();
 app.use( express.static( `${__dirname}/../build` ) );
 app.use(cors());
 
-const PORT = 8080;
+const PORT = 8081;
 app.listen(PORT, () => {
   console.log(`Listening on PORT: ${PORT}`);
 });
