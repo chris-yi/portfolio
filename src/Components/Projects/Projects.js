@@ -113,14 +113,14 @@ export default function Projects() {
             </div>
             <div className="Portfolio_Buttons">
               <a
-                href="http://hiddencamp.com"
+                href="http://nebofitness.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="Portfolio_Button">Website</div>
               </a>
               <a
-                href="https://github.com/chris-yi/hidden-camp"
+                href="https://github.com/NeboCreatives/nebofit"
                 target="_blank"
                 rel="noopener noreferrer"
               >

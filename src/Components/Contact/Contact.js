@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css"
 import Logo from "../../Assets/chrisyilogo.png"
 import Resume from "../../Assets/ChrisYiResume2017.pdf"
+import Resume2 from"../../Assets/ChrisYiResume2017Update.pdf"
 
 
 export default function Contact() {
@@ -21,7 +22,7 @@ export default function Contact() {
             <img src={Logo} alt="chrisyilogo" className="Footer_Logo"/>
             <p>&copy; 2017 Chris Yi</p>
             <div className="Contact_Badges">
-                <a href={Resume} target="_blank" rel="noopener noreferrer" download="chrisyi_resume">
+                <a href={Resume2} target="_blank" rel="noopener noreferrer" download="chrisyi_resume">
                 <div className="Contact_Badge"><i class="fa fa-file-o" aria-hidden="true"></i></div></a>
                 <a href="https://www.linkedin.com/in/chrissyi/" target="_blank" rel="noopener noreferrer">
                 <div className="Contact_Badge"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
