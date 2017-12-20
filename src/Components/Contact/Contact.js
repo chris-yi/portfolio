@@ -13,7 +13,7 @@ export default function Contact() {
             <h1>Want to work together?</h1>
             <p>I am currently available for full-time work and would love to chat.</p>
             <p>Please shoot me an email.</p>
-            <a href="mailto:chris@chrisyi.me">
+            <a href="mailto:chris.s.yi@outlook.com">
             <div className="Contact_Button">
                 Message Me
             </div>
@@ -31,7 +31,7 @@ export default function Contact() {
                 <div className="Contact_Badge"><i class="fa fa-github" aria-hidden="true"></i></div></a>
                 <a href="https://www.instagram.com/js_almighty/" target="_blank" rel="noopener noreferrer">
                 <div className="Contact_Badge"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
-                <a href="mailto:chris@chrisyi.me" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:chris.s.yi@outlook.com" target="_blank" rel="noopener noreferrer">
                 <div className="Contact_Badge"><i class="fa fa-envelope-o" aria-hidden="true"></i></div></a>
             </div>
         </div>
